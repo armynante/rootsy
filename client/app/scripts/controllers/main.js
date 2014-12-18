@@ -8,10 +8,8 @@
  * Controller of the rootsyApp
  */
 angular.module('rootsyApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope,$http) {
+    $http.get('/api/companies').success( function(data, status, headers, config) {
+      $scope.companies = data;
+    });
   });

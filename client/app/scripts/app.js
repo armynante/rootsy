@@ -8,8 +8,8 @@
  *
  * Main module of the application.
  */
-angular
-  .module('rootsyApp', [
+
+  angular.module('rootsyApp', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
@@ -29,7 +29,12 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
   });
+
