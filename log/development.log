@@ -869,3 +869,88 @@ Started GET "/api/companies" for 127.0.0.1 at 2014-12-17 23:17:55 -0800
 Processing by CompaniesController#index as HTML
   [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
 Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-17 23:37:30 -0800
+
+LoadError (cannot load such file -- /Users/andrewarmenante/Desktop/code/rootsy/server/config/routes.rb):
+  activesupport (4.1.8) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.8) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.8) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.8) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.8) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.8) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.8) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.8) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.8) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.8) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.8) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.8) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.8) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-17 23:38:34 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.1ms)
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-17 23:39:38 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-17 23:39:41 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2014-12-17 23:50:55 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.7ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 20ms (Views: 7.1ms | ActiveRecord: 3.1ms)
