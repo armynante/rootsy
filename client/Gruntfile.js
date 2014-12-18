@@ -428,6 +428,8 @@ grunt.registerTask('server', 'DEPRECATED TASK. Use the "serve" task instead', fu
   grunt.task.run(['serve:' + target]);
 });
 
+grunt.registerTask('heroku:production', 'build');
+
 grunt.registerTask('test', [
   'clean:server',
   'concurrent:test',
