@@ -1,8 +1,7 @@
 {
   "name": "rootsy",
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "grunt": "^0.4.1",
     "load-grunt-tasks": "^0.6.0",
     "grunt-autoprefixer": "^0.7.3",
