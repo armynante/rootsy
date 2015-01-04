@@ -17,9 +17,12 @@
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ng-token-auth'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
+    
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -29,12 +32,17 @@
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/login', {
-        templateUrl: 'views/login.html',
+      .when('/sign_in', {
+        templateUrl: 'views/user_sessions/new.html',
         controller: 'LoginCtrl'
       })
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
 
+.run(['$rootScope', '$location', function($rootScope, $location) { 
+  $rootScope.$on('auth:login-success', function() { 
+    $location.path('/'); 
+  }); 
+}]);

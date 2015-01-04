@@ -1,6 +1,9 @@
 <!doctype html>
 <html class="no-js">
   <head>
+    <!-- added for html 5 location support :: https://docs.angularjs.org/error/$location/nobase-->
+    <base href="/">
+
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
@@ -23,9 +26,11 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
+          <li class="active"><a ng-href="/">Home</a></li>
+          <li><a ng-href="/about">About</a></li>
+          <li><a ng-href="/contact">Contact</a></li>
+          <li ng-show="!user.id"><a ng-href="/sign_in">Sign in</a></li>
+          <li ng-show="user.id"><a ng-click='signOut()'>Sign out</a></li>
         </ul>
         <h3 class="text-muted">rootsy</h3>
       </div>
@@ -80,6 +85,8 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-cookie/angular-cookie.js"></script>
+    <script src="bower_components/ng-token-auth/dist/ng-token-auth.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -87,6 +94,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/user_sessions.js"></script>
         <!-- endbuild -->
 </body>
 </html>

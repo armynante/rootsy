@@ -1157,3 +1157,1153 @@ Started GET "/api/companies" for 127.0.0.1 at 2014-12-29 23:25:06 -0800
 Processing by CompaniesController#index as HTML
   [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
 Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 12:30:18 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (1.7ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 23ms (Views: 7.5ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 12:30:23 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.5ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 13:49:03 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (1.0ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 21ms (Views: 7.6ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 13:54:22 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 13:56:06 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2015-01-03 13:56:10 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.5ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.1ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 13:56:13 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2015-01-03 13:56:17 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.7ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 13:58:29 -0800
+
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  config/routes.rb:5:in `block (2 levels) in <top (required)>'
+  config/routes.rb:4:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2015-01-03 13:58:30 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 13:59:09 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.7ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 18ms (Views: 8.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2015-01-03 13:59:11 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.6ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 13:59:31 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2015-01-03 14:00:00 -0800
+
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrewarmenante/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:01:58 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:02:09 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:02:14 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:12:28 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.6ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:12:31 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.5ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:12:33 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:12:34 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.9ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:12:46 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:14:39 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:14:44 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:14:47 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:15:07 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:15:07 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:15:53 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.9ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:15:57 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:13 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:15 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:16 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:17 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:18 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.7ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:18 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:18 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:19 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:22 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.5ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:23 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.5ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:25 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:26 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:29 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:30 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.9ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:31 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:33 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:39 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.6ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:41 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:42 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:16:47 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:51:37 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 13ms (Views: 6.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:51:48 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:52:43 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:52:56 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:52:58 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:53:00 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:53:00 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:53:01 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:53:30 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:53:37 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Army04"}
+  [1m[35mUser Load (5.5ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 11ms (Views: 0.2ms | ActiveRecord: 6.9ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:53:51 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Army04"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:53:58 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Army04"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:53:59 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Army04"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:53:59 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Army04"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:54:00 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Army04"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:57:38 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:58:03 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.5ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:58:04 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:58:16 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"password"=>"asdf", "email"=>"andrew.armenante@gmail.com"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:58:33 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:58:39 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"asdfasdfasdf"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 14:59:26 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 14:59:30 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"asdfasdf"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 15:00:05 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.3ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 15:00:11 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"asdfasdf"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+  [1m[36m (3.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.9ms)[0m  INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["confirmed_at", "2015-01-03 23:08:07.489577"], ["created_at", "2015-01-03 23:08:37.448240"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$z815vmk4q6yK0q8ALiXhD.9B8udlAEt5CiAplT2Verw7EyXGiQScK"], ["tokens", "{}"], ["uid", "73462ba8-5549-41ab-b363-c3921866e65d"], ["updated_at", "2015-01-03 23:08:37.448240"]]
+PG::NotNullViolation: ERROR:  null value in column "provider" violates not-null constraint
+DETAIL:  Failing row contains (1, null, 73462ba8-5549-41ab-b363-c3921866e65d, $2a$10$z815vmk4q6yK0q8ALiXhD.9B8udlAEt5CiAplT2Verw7EyXGiQScK, null, null, null, 0, null, null, null, null, null, 2015-01-03 23:08:07.489577, null, null, null, null, null, andrew.armenante@gmail.com, {}, 2015-01-03 23:08:37.44824, 2015-01-03 23:08:37.44824).
+: INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 15:18:33 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.7ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 22ms (Views: 9.4ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 15:18:37 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"asdfasdf"}
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 7ms (Views: 0.3ms | ActiveRecord: 3.2ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["confirmed_at", "2015-01-03 23:22:47.403411"], ["created_at", "2015-01-03 23:22:47.403615"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$FRtDMwW4qwSQw5f4V8i5zOeDC2k2hhByQ3NXK4GkHzrBpyyBxPT1i"], ["tokens", "{}"], ["uid", "34c13aa7-81f9-4f7e-8613-9da6bf1f6f8e"], ["updated_at", "2015-01-03 23:22:47.403615"]]
+PG::NotNullViolation: ERROR:  null value in column "provider" violates not-null constraint
+DETAIL:  Failing row contains (2, null, 34c13aa7-81f9-4f7e-8613-9da6bf1f6f8e, $2a$10$FRtDMwW4qwSQw5f4V8i5zOeDC2k2hhByQ3NXK4GkHzrBpyyBxPT1i, null, null, null, 0, null, null, null, null, null, 2015-01-03 23:22:47.403411, null, null, null, null, null, andrew.armenante@gmail.com, {}, 2015-01-03 23:22:47.403615, 2015-01-03 23:22:47.403615).
+: INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+PG::InFailedSqlTransaction: ERROR:  current transaction is aborted, commands ignored until end of transaction block
+: SELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["confirmed_at", "2015-01-03 23:23:32.632799"], ["created_at", "2015-01-03 23:22:47.403615"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$FRtDMwW4qwSQw5f4V8i5zOeDC2k2hhByQ3NXK4GkHzrBpyyBxPT1i"], ["tokens", "{}"], ["uid", "34c13aa7-81f9-4f7e-8613-9da6bf1f6f8e"], ["updated_at", "2015-01-03 23:22:47.403615"]]
+PG::InFailedSqlTransaction: ERROR:  current transaction is aborted, commands ignored until end of transaction block
+: INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.1ms)[0m  INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["confirmed_at", "2015-01-03 23:34:38.929264"], ["created_at", "2015-01-03 23:22:47.403615"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$hvCmDB7mrxqDLOfyeYNK6OFj64u6V0eScqdXs6T5O0BDxickaOE5a"], ["provider", "Me"], ["tokens", "{}"], ["uid", "cca26437-6dfb-4bbc-b8ee-07f16720fbc2"], ["updated_at", "2015-01-03 23:22:47.403615"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 15:35:55 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 38ms (Views: 0.2ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 15:36:03 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante04"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 15:36:06 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante04"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 15:36:08 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante04"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  DELETE FROM "users" WHERE "users"."id" = 3
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = 'bf5b1cafd490d58a0a346d236128056675b98cdd0f40a5eb1757eea5b5f7235d'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["confirmation_sent_at", "2015-01-03 23:39:39.153342"], ["confirmation_token", "bf5b1cafd490d58a0a346d236128056675b98cdd0f40a5eb1757eea5b5f7235d"], ["created_at", "2015-01-03 23:39:38.775331"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$mtX9YgoBb24jx2np0AMioeAuVkAvtpKILYO9pEXK9QLuV0dhIOf2K"], ["provider", "Me"], ["tokens", "{}"], ["uid", "eee5dca2-1881-4c18-a089-ba4e9e7389b5"], ["updated_at", "2015-01-03 23:39:38.775331"]]
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/devise_token_auth-0.1.30/app/views/devise/mailer/confirmation_instructions.html.erb (5.2ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 14.3ms
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36mUser Load (33.7ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DropUsers (20150103234444)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (19.0ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150103234444"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddBackUserTable (20150103235314)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (18.8ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "provider" character varying(255) NOT NULL, "uid" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "confirmation_token" character varying(255), "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying(255), "name" character varying(255), "nickname" character varying(255), "image" character varying(255), "email" character varying(255), "tokens" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.1ms)[0m  CREATE  INDEX  "index_users_on_email" ON "users"  ("email")
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_uid_and_provider" ON "users"  ("uid", "provider")[0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20150103235314"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mCompany Load (0.8ms)[0m  SELECT  "companies".* FROM "companies"   ORDER BY "companies"."id" DESC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["confirmed_at", "2015-01-03 23:58:40.505848"], ["created_at", "2015-01-03 23:58:40.506074"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$N1a9xQ18ErBhLh0822bfhu8SBmzLi0bLZqggYJ6PFTz3AwQuTCKHa"], ["tokens", "{}"], ["uid", "67b138e7-234f-487a-87ed-60d631accb55"], ["updated_at", "2015-01-03 23:58:40.506074"]]
+PG::NotNullViolation: ERROR:  null value in column "provider" violates not-null constraint
+DETAIL:  Failing row contains (1, null, 67b138e7-234f-487a-87ed-60d631accb55, $2a$10$N1a9xQ18ErBhLh0822bfhu8SBmzLi0bLZqggYJ6PFTz3AwQuTCKHa, null, null, null, 0, null, null, null, null, null, 2015-01-03 23:58:40.505848, null, null, null, null, null, andrew.armenante@gmail.com, {}, 2015-01-03 23:58:40.506074, 2015-01-03 23:58:40.506074).
+: INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["confirmed_at", "2015-01-03 23:59:06.510477"], ["created_at", "2015-01-03 23:59:06.510655"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$X4OfMgOY5Tmoi7DWJAknv.lzCiS0DjcNvxFaiCO8hd4XKIbddJCta"], ["provider", "Rootsy"], ["tokens", "{}"], ["uid", "fa8d7caf-bbb6-4ec5-b578-4eec94a75ad6"], ["updated_at", "2015-01-03 23:59:06.510655"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 15:59:24 -0800
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.6ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 18ms (Views: 7.7ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 15:59:30 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 5ms (Views: 0.2ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:00:15 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:00:36 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:00:54 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"andrew.armenante@gmail.com"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["confirmed_at", "2015-01-04 00:05:12.025889"], ["created_at", "2015-01-04 00:05:12.026051"], ["email", "your.email@example.com"], ["encrypted_password", "$2a$10$VyGszv4BUQhhASIboKU7kOdCvxRLCZRWIAMu/Xrbs7tMivKxv.Be."], ["tokens", "{}"], ["uid", "2d577de9-0b65-4a88-ad6f-1ed2687034b2"], ["updated_at", "2015-01-04 00:05:12.026051"]]
+PG::NotNullViolation: ERROR:  null value in column "provider" violates not-null constraint
+DETAIL:  Failing row contains (3, null, 2d577de9-0b65-4a88-ad6f-1ed2687034b2, $2a$10$VyGszv4BUQhhASIboKU7kOdCvxRLCZRWIAMu/Xrbs7tMivKxv.Be., null, null, null, 0, null, null, null, null, null, 2015-01-04 00:05:12.025889, null, null, null, null, null, your.email@example.com, {}, 2015-01-04 00:05:12.026051, 2015-01-04 00:05:12.026051).
+: INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["confirmed_at", "2015-01-04 00:05:23.281365"], ["created_at", "2015-01-04 00:05:12.026051"], ["email", "your.email@example.com"], ["encrypted_password", "$2a$10$VyGszv4BUQhhASIboKU7kOdCvxRLCZRWIAMu/Xrbs7tMivKxv.Be."], ["provider", "Rootsy"], ["tokens", "{}"], ["uid", "856ef49c-a391-49b3-a72c-f1c174a99288"], ["updated_at", "2015-01-04 00:05:12.026051"]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:05:33 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (1.2ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:06:06 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"your.email@example.com", "password"=>"yourpassword"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='your.email@example.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:06:33 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.5ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:06:46 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"your.email@example.com", "password"=>"yourpassword"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='your.email@example.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'andrew.armenante@gmail.com' LIMIT 1[0m
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:12:34 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.7ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 18ms (Views: 7.5ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:12:41 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 6ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 4]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = 'be2d1a28f49acb2ae9a3e61c9045a4ad666d8ca7dcf50472c02299b412095e8b'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["confirmation_sent_at", "2015-01-04 00:20:42.449866"], ["confirmation_token", "be2d1a28f49acb2ae9a3e61c9045a4ad666d8ca7dcf50472c02299b412095e8b"], ["created_at", "2015-01-04 00:20:42.041058"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$qVFWNAvRSu7nzqatVQqLueUCGkWwBg9X8A3zvRApyrH2PRWizNlLS"], ["tokens", "{}"], ["uid", "b3b58133-80c1-43b4-939b-a15eefe41e75"], ["updated_at", "2015-01-04 00:20:42.041058"]]
+PG::NotNullViolation: ERROR:  null value in column "provider" violates not-null constraint
+DETAIL:  Failing row contains (5, null, b3b58133-80c1-43b4-939b-a15eefe41e75, $2a$10$qVFWNAvRSu7nzqatVQqLueUCGkWwBg9X8A3zvRApyrH2PRWizNlLS, null, null, null, 0, null, null, null, null, be2d1a28f49acb2ae9a3e61c9045a4ad666d8ca7dcf50472c02299b412095e8b, null, 2015-01-04 00:20:42.449866, null, null, null, null, andrew.armenante@gmail.com, {}, 2015-01-04 00:20:42.041058, 2015-01-04 00:20:42.041058).
+: INSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = 'ed7d296951570b7814dec90a4394bca97f4c257b3d164325efb45a94a20ce07b'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["confirmation_sent_at", "2015-01-04 00:21:02.434280"], ["confirmation_token", "ed7d296951570b7814dec90a4394bca97f4c257b3d164325efb45a94a20ce07b"], ["created_at", "2015-01-04 00:21:02.432266"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$yQRK8M7SOr5mQM3x/W7Yw.iCyRCnB3Ne62KbAljzC/XgO/WykcvbW"], ["provider", "Rootsy"], ["tokens", "{}"], ["uid", "f803bdfa-511b-45d5-af15-0f1ff44940a2"], ["updated_at", "2015-01-04 00:21:02.432266"]]
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/devise_token_auth-0.1.30/app/views/devise/mailer/confirmation_instructions.html.erb (37.0ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 49.9ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = 'c2670b5eab2fcef93754a32105c20828c9e389607dded74190e33ca843659a31'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["confirmation_sent_at", "2015-01-04 00:21:43.664659"], ["confirmation_token", "c2670b5eab2fcef93754a32105c20828c9e389607dded74190e33ca843659a31"], ["created_at", "2015-01-04 00:21:02.432266"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$yQRK8M7SOr5mQM3x/W7Yw.iCyRCnB3Ne62KbAljzC/XgO/WykcvbW"], ["provider", "Rootsy"], ["tokens", "{}"], ["uid", "4dbfb988-27cb-4dd1-b098-68bc4ea646ca"], ["updated_at", "2015-01-04 00:21:02.432266"]]
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/devise_token_auth-0.1.30/app/views/devise/mailer/confirmation_instructions.html.erb (0.9ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 5.9ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["confirmed_at", "2015-01-04 00:31:23.171730"], ["created_at", "2015-01-04 00:31:23.171911"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$hs8AfLz0MgRPEcxT9qWaKeZz3IH2vQU2mXmmoesMFoz5pOUcZ6WuS"], ["provider", "Rootsy"], ["tokens", "{}"], ["uid", "f7b8abde-e38c-47dd-b178-968fb7603c1b"], ["updated_at", "2015-01-04 00:31:23.171911"]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users"   ORDER BY "users"."id" DESC LIMIT 1[0m
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:32:02 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"your.email@example.com", "password"=>"yourpassword"}
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='your.email@example.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 6ms (Views: 0.2ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:34:26 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"your.email@example.com", "password"=>"yourpassword"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='your.email@example.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.6ms)[0m  SELECT COUNT(*) FROM "users"  WHERE "users"."provider" = 'email' AND "users"."email" = 'andrew.armenante@gmail.com'
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = 'cd37aa58a3cc27958b01dd736ce4dc4a9c89a937d657c95772c2d7b8cb9f849c'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["confirmation_sent_at", "2015-01-04 00:47:15.911569"], ["confirmation_token", "cd37aa58a3cc27958b01dd736ce4dc4a9c89a937d657c95772c2d7b8cb9f849c"], ["created_at", "2015-01-04 00:47:15.515002"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$oSIXCJultDm0H0bJOX9nU.RrU1nB1AQnSu44Od0zuEpILucrOGn0C"], ["provider", "email"], ["tokens", "{}"], ["uid", "andrew.armenante@gmail.com"], ["updated_at", "2015-01-04 00:47:15.515002"]]
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/devise_token_auth-0.1.30/app/views/devise/mailer/confirmation_instructions.html.erb (36.1ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 46.9ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users"  WHERE "users"."provider" = 'email' AND "users"."email" = 'andrew.armenante@gmail.com'[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = '32004b91bf9f1a3bc39bc0c2dd71727fbcfe97ad139f35dd7cf4b2514723333a'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["confirmation_sent_at", "2015-01-04 00:48:17.817967"], ["confirmation_token", "32004b91bf9f1a3bc39bc0c2dd71727fbcfe97ad139f35dd7cf4b2514723333a"], ["created_at", "2015-01-04 00:47:15.515002"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$oSIXCJultDm0H0bJOX9nU.RrU1nB1AQnSu44Od0zuEpILucrOGn0C"], ["provider", "email"], ["tokens", "{}"], ["uid", "andrew.armenante@gmail.com"], ["updated_at", "2015-01-04 00:47:15.515002"]]
+  Rendered /Users/andrewarmenante/.rvm/gems/ruby-2.0.0-p353/gems/devise_token_auth-0.1.30/app/views/devise/mailer/confirmation_instructions.html.erb (0.8ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 5.5ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.7ms)[0m  SELECT COUNT(*) FROM "users"  WHERE "users"."provider" = 'email' AND "users"."email" = 'andrew.armenante@gmail.com'
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["confirmed_at", "2015-01-04 00:49:34.706041"], ["created_at", "2015-01-04 00:49:34.706336"], ["email", "andrew.armenante@gmail.com"], ["encrypted_password", "$2a$10$F1Qk9COqPGlFv0uXTyTizOmGoJnPUpK308RDuhx3wRKZDCGqIe9/G"], ["provider", "email"], ["tokens", "{}"], ["uid", "andrew.armenante@gmail.com"], ["updated_at", "2015-01-04 00:49:34.706336"]]
+  [1m[35m (1.7ms)[0m  COMMIT
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:49:46 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:49:46.793226"], ["tokens", "{\"t5xSHy9ziOM5kqU0442a-Q\":{\"token\":\"$2a$10$Z1D7n56vgilGZ39Ls2ylDuX2cCV73gOM/sYpVlv3O7Rs9zO1orr0q\",\"expiry\":1421542186}}"], ["updated_at", "2015-01-04 00:49:46.794509"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "current_sign_in_at" = $2, "current_sign_in_ip" = $3, "last_sign_in_at" = $4, "last_sign_in_ip" = $5, "sign_in_count" = $6, "tokens" = $7, "updated_at" = $8 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:49:46.800437"], ["current_sign_in_at", "2015-01-04 00:49:46.799446"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2015-01-04 00:49:46.799446"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["tokens", "{\"t5xSHy9ziOM5kqU0442a-Q\":{\"token\":\"$2a$10$Z1D7n56vgilGZ39Ls2ylDuX2cCV73gOM/sYpVlv3O7Rs9zO1orr0q\",\"expiry\":1421542186}}"], ["updated_at", "2015-01-04 00:49:46.800622"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 11]]
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:49:46.866752"], ["tokens", "{\"t5xSHy9ziOM5kqU0442a-Q\":{\"token\":\"$2a$10$QpRUwaUZzfVY9M3jjmHAFOI9IbIPjhV5uv3.coI6DYLOvxg6WDRpa\",\"expiry\":1421542186,\"last_token\":\"$2a$10$Z1D7n56vgilGZ39Ls2ylDuX2cCV73gOM/sYpVlv3O7Rs9zO1orr0q\",\"updated_at\":\"2015-01-03T16:49:46.866-08:00\"}}"], ["updated_at", "2015-01-04 00:49:46.866942"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 200 OK in 223ms (Views: 0.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:49:46 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (1.1ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 26ms (Views: 11.3ms | ActiveRecord: 4.7ms)
+
+
+Started DELETE "/api/auth/sign_out" for 127.0.0.1 at 2015-01-03 16:51:47 -0800
+Processing by DeviseTokenAuth::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."uid" = 'andrew.armenante@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:51:47.230149"], ["tokens", "{}"], ["updated_at", "2015-01-04 00:51:47.230403"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 95ms (Views: 0.3ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:51:54 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:51:54.629702"], ["tokens", "{\"vXpsGURedr3ihqgPoIjB5w\":{\"token\":\"$2a$10$l0UuPyg8Rwq95MQlkOt4Qu5.ou38oXEP1jKnR/mmF3//2OWC7/FIK\",\"expiry\":1421542314}}"], ["updated_at", "2015-01-04 00:51:54.630044"]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "tokens" = $4, "updated_at" = $5 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:51:54.634932"], ["current_sign_in_at", "2015-01-04 00:51:54.634216"], ["sign_in_count", 2], ["tokens", "{\"vXpsGURedr3ihqgPoIjB5w\":{\"token\":\"$2a$10$l0UuPyg8Rwq95MQlkOt4Qu5.ou38oXEP1jKnR/mmF3//2OWC7/FIK\",\"expiry\":1421542314}}"], ["updated_at", "2015-01-04 00:51:54.635121"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 11]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:51:54.702877"], ["tokens", "{\"vXpsGURedr3ihqgPoIjB5w\":{\"token\":\"$2a$10$HlAnhT88ETZQ20OZ6yjUcuCj39iuhxFqWapkTzlJ8.EcvGrdRps4m\",\"expiry\":1421542314,\"last_token\":\"$2a$10$l0UuPyg8Rwq95MQlkOt4Qu5.ou38oXEP1jKnR/mmF3//2OWC7/FIK\",\"updated_at\":\"2015-01-03T16:51:54.702-08:00\"}}"], ["updated_at", "2015-01-04 00:51:54.703062"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 201ms (Views: 0.2ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:51:54 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.4ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 12ms (Views: 6.7ms | ActiveRecord: 2.2ms)
+
+
+Started DELETE "/api/auth/sign_out" for 127.0.0.1 at 2015-01-03 16:52:00 -0800
+Processing by DeviseTokenAuth::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."uid" = 'andrew.armenante@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:52:00.562143"], ["tokens", "{}"], ["updated_at", "2015-01-04 00:52:00.562337"]]
+  [1m[36m (2.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 70ms (Views: 0.2ms | ActiveRecord: 3.6ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users"  WHERE "users"."provider" = 'email' AND "users"."email" = 'armenante@gmail.com'
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("confirmed_at", "created_at", "email", "encrypted_password", "provider", "tokens", "uid", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["confirmed_at", "2015-01-04 00:52:56.398196"], ["created_at", "2015-01-04 00:52:56.398349"], ["email", "armenante@gmail.com"], ["encrypted_password", "$2a$10$WsI3cDGp1kUWp.khn1/deeDnlPJ4eMuWPJhmpHE0KTwynf1qyLDpu"], ["provider", "email"], ["tokens", "{}"], ["uid", "armenante@gmail.com"], ["updated_at", "2015-01-04 00:52:56.398349"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:53:09 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"armenante@gmail.com", "password"=>"Armenante04"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 12  [["confirmed_at", "2015-01-04 00:53:09.606380"], ["tokens", "{\"f3KAlfQatrD0IOMNySzBcQ\":{\"token\":\"$2a$10$fSKfZfiZN3U3OVxStJxNv.6WU2Rs4wcQLim/YirCM3T6.1Dwd14A2\",\"expiry\":1421542389}}"], ["updated_at", "2015-01-04 00:53:09.606635"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "current_sign_in_at" = $2, "current_sign_in_ip" = $3, "last_sign_in_at" = $4, "last_sign_in_ip" = $5, "sign_in_count" = $6, "tokens" = $7, "updated_at" = $8 WHERE "users"."id" = 12[0m  [["confirmed_at", "2015-01-04 00:53:09.611998"], ["current_sign_in_at", "2015-01-04 00:53:09.611311"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2015-01-04 00:53:09.611311"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["tokens", "{\"f3KAlfQatrD0IOMNySzBcQ\":{\"token\":\"$2a$10$fSKfZfiZN3U3OVxStJxNv.6WU2Rs4wcQLim/YirCM3T6.1Dwd14A2\",\"expiry\":1421542389}}"], ["updated_at", "2015-01-04 00:53:09.612207"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 12]]
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 12[0m  [["confirmed_at", "2015-01-04 00:53:09.678966"], ["tokens", "{\"f3KAlfQatrD0IOMNySzBcQ\":{\"token\":\"$2a$10$h7es6WqEMyZt6ZxvXhRJM.xuVSuFJ1sAPaoZZWbjKje8e3XvV7NOK\",\"expiry\":1421542389,\"last_token\":\"$2a$10$fSKfZfiZN3U3OVxStJxNv.6WU2Rs4wcQLim/YirCM3T6.1Dwd14A2\",\"updated_at\":\"2015-01-03T16:53:09.678-08:00\"}}"], ["updated_at", "2015-01-04 00:53:09.679221"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Completed 200 OK in 205ms (Views: 0.2ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:53:09 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/api/auth/sign_out" for 127.0.0.1 at 2015-01-03 16:53:11 -0800
+Processing by DeviseTokenAuth::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."uid" = 'armenante@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 12  [["confirmed_at", "2015-01-04 00:53:11.741356"], ["tokens", "{}"], ["updated_at", "2015-01-04 00:53:11.741562"]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 70ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:53:16 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"asdfasdf"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 66ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:53:47 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:53:47.908533"], ["tokens", "{\"gjeEqhP5Oeqrk1JoSLi8fQ\":{\"token\":\"$2a$10$Dnx.00FxauwXPb/snaRcXuhVHaF2hEeDUI2xbkLazVh35wm2apoQG\",\"expiry\":1421542427}}"], ["updated_at", "2015-01-04 00:53:47.908715"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "sign_in_count" = $4, "tokens" = $5, "updated_at" = $6 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:53:47.913095"], ["current_sign_in_at", "2015-01-04 00:53:47.912576"], ["last_sign_in_at", "2015-01-04 00:51:54.634216"], ["sign_in_count", 3], ["tokens", "{\"gjeEqhP5Oeqrk1JoSLi8fQ\":{\"token\":\"$2a$10$Dnx.00FxauwXPb/snaRcXuhVHaF2hEeDUI2xbkLazVh35wm2apoQG\",\"expiry\":1421542427}}"], ["updated_at", "2015-01-04 00:53:47.913238"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE[0m  [["id", 11]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:53:47.977547"], ["tokens", "{\"gjeEqhP5Oeqrk1JoSLi8fQ\":{\"token\":\"$2a$10$PuXNncml6EH70h96bsHDe.ODFrfpIHbTzsfZDZGUIT8e4pwyFH/sO\",\"expiry\":1421542427,\"last_token\":\"$2a$10$Dnx.00FxauwXPb/snaRcXuhVHaF2hEeDUI2xbkLazVh35wm2apoQG\",\"updated_at\":\"2015-01-03T16:53:47.977-08:00\"}}"], ["updated_at", "2015-01-04 00:53:47.977724"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 198ms (Views: 0.2ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:53:48 -0800
+Processing by CompaniesController#index as HTML
+  [1m[35mCompany Load (0.4ms)[0m  SELECT "companies".* FROM "companies"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/auth/sign_out" for 127.0.0.1 at 2015-01-03 16:53:53 -0800
+Processing by DeviseTokenAuth::SessionsController#destroy as HTML
+  [1m[36mUser Load (2.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."uid" = 'andrew.armenante@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:53:53.288552"], ["tokens", "{}"], ["updated_at", "2015-01-04 00:53:53.288741"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Completed 200 OK in 67ms (Views: 0.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:53:56 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.8ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/auth/sign_in" for 127.0.0.1 at 2015-01-03 16:54:03 -0800
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"andrew.armenante@gmail.com", "password"=>"Armenante@04"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE (uid='andrew.armenante@gmail.com' AND provider='email')  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:54:03.534955"], ["tokens", "{\"NsPKE7SPWVo7UfKEX7efDQ\":{\"token\":\"$2a$10$E7mWR9whR2aiq5gst0r47.kXIIpGAE6T/3atFNOPc5OqifX1ZxVGy\",\"expiry\":1421542443}}"], ["updated_at", "2015-01-04 00:54:03.535127"]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "sign_in_count" = $4, "tokens" = $5, "updated_at" = $6 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:54:03.539481"], ["current_sign_in_at", "2015-01-04 00:54:03.538901"], ["last_sign_in_at", "2015-01-04 00:53:47.912576"], ["sign_in_count", 4], ["tokens", "{\"NsPKE7SPWVo7UfKEX7efDQ\":{\"token\":\"$2a$10$E7mWR9whR2aiq5gst0r47.kXIIpGAE6T/3atFNOPc5OqifX1ZxVGy\",\"expiry\":1421542443}}"], ["updated_at", "2015-01-04 00:54:03.539647"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1 FOR UPDATE  [["id", 11]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11[0m  [["confirmed_at", "2015-01-04 00:54:03.607695"], ["tokens", "{\"NsPKE7SPWVo7UfKEX7efDQ\":{\"token\":\"$2a$10$r4NRsQ9xjVf3WwKkVVwTh.87bQ83WXmw0brgtyRIrUmsznlm6D9l6\",\"expiry\":1421542443,\"last_token\":\"$2a$10$E7mWR9whR2aiq5gst0r47.kXIIpGAE6T/3atFNOPc5OqifX1ZxVGy\",\"updated_at\":\"2015-01-03T16:54:03.607-08:00\"}}"], ["updated_at", "2015-01-04 00:54:03.607866"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 197ms (Views: 0.1ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/api/companies" for 127.0.0.1 at 2015-01-03 16:54:03 -0800
+Processing by CompaniesController#index as HTML
+  [1m[36mCompany Load (0.3ms)[0m  [1mSELECT "companies".* FROM "companies"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/api/auth/sign_out" for 127.0.0.1 at 2015-01-03 16:54:06 -0800
+Processing by DeviseTokenAuth::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."uid" = 'andrew.armenante@gmail.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "confirmed_at" = $1, "tokens" = $2, "updated_at" = $3 WHERE "users"."id" = 11  [["confirmed_at", "2015-01-04 00:54:06.256974"], ["tokens", "{}"], ["updated_at", "2015-01-04 00:54:06.257156"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 66ms (Views: 0.2ms | ActiveRecord: 2.8ms)

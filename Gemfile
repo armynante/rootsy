@@ -11,13 +11,16 @@ gem 'spring', :group => :development
 gem 'pg'
 gem 'geocoder'
 
+#OAUTH Stuff
 gem 'devise_token_auth'
 gem 'omniauth'
+# gem 'omniauth-linkedin'
+
 
 #Testing Stuff
-gem 'rspec-rails'
-
-
+group :test do
+  gem 'rspec-rails'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
@@ -32,4 +35,4 @@ gem 'rspec-rails'
 # gem 'capistrano', :group => :development
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'debugger'
