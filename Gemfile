@@ -33,7 +33,6 @@ gem 'angular-rails-templates'
 #auth
 gem 'devise'
 
-
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -41,9 +40,9 @@ gem 'devise'
 # gem 'capistrano-rails', group: :development
 
 #
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
+
 
 #Use debugger
+gem 'rails_12factor', group: :production
 gem 'debugger', group: [:development, :test]
 
