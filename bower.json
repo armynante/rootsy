@@ -5,7 +5,7 @@
     "bootstrap": "~3.3.1",
     "angular": "latest",
     "angular-route": "latest",
-    "font-awesome"
+    "font-awesome":"latest"
   },
   "ignore": [
     "**/.*",
