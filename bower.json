@@ -1,0 +1,26 @@
+{
+  "name": "Rootsy",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "angular": "latest",
+    "angular-route": "latest",
+    "font-awesome"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor/assets/bower_components"
+  ],
+  "authors": [
+    "Andrew Armenante <andrew.armenante@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "font-awesome": "~4.2.0"
+  }
+}
