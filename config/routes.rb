@@ -1,10 +1,17 @@
+require 'sidekiq/web'
 Rails.application.routes.draw do
+  mount Sidekiq::Web => '/sidekiq'
+
+  resources :prospects
 
   root 'application#home'
   get '/home' => 'application#home'
   
   devise_for :users, :skip => [:sessions]
-  
+
+  match '/users/:id/finish_signup' => 'users#finish_signup', via: [:get, :patch], :as => :finish_signup
+  match '/auth/:provider/callback' => 'authentications#create_auth', via: [:get, :post]
+
   as :user do
     get 'signin' => 'devise/sessions#new', :as => :new_user_session
     post 'signin' => 'devise/sessions#create', :as => :user_session
@@ -12,8 +19,6 @@ Rails.application.routes.draw do
   end
 
   get '*path' => 'application#index', as: 'dashboard'
-
-
 
 
 

@@ -11,16 +11,47 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150112015106) do
+ActiveRecord::Schema.define(version: 20150119035329) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "authentications", force: true do |t|
+    t.integer  "user_id"
+    t.string   "provider"
+    t.string   "uid"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "auth_token"
+    t.time     "expires_at"
+  end
 
   create_table "companies", force: true do |t|
     t.string   "name"
     t.string   "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "prospects", force: true do |t|
+    t.string   "name"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "industry"
+    t.string   "linkedin_image_url"
+    t.string   "linkedin_profile_url"
+    t.string   "job_description"
+    t.string   "location"
+    t.string   "email"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "rel_user_id"
+    t.string   "linkedin_id"
+    t.string   "fb_image_url"
+    t.string   "fb_profile_url"
+    t.string   "fb_id"
+    t.string   "provider"
   end
 
   create_table "users", force: true do |t|
@@ -40,6 +71,15 @@ ActiveRecord::Schema.define(version: 20150112015106) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
+    t.string   "name"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "location"
+    t.string   "industry"
+    t.string   "job_description"
+    t.string   "linkedin_profile_url"
+    t.string   "image_url"
+    t.string   "secondary_email"
   end
 
   add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree
