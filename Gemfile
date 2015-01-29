@@ -43,5 +43,5 @@ gem "linkedin-oauth2", "~> 1.0"
 
 #Use debugger
 gem 'rails_12factor', group: :production
-gem 'debugger', group: [:development, :test]
+#gem 'debugger', group: [:development, :test]
 

@@ -12,6 +12,8 @@
  *
  *= require font-awesome/css/font-awesome
  *= require bootstrap/dist/css/bootstrap
+ *= require foundation/css/foundation.css
+ *= require foundation/css/normalize.css
  *= require_tree .
  *= require_self
  */
