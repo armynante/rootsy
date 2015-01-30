@@ -1,5 +1,61 @@
+
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="fixed">
+        <nav class="top-bar" data-topbar role="navigation" >
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#">Rootsy</a></h1>
+            </li>
+             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="/signin">Sign In</a></li>
+                <li><a href="/signout">Sign Out</a></li>          
+            </ul>
+
+            <!-- Left Nav Section -->
+            <!--ul class="left">
+              
+            </ul -->
+          </section>
+          
+        </nav>
+    </div>
+
+    <!-- messages -->
+
+    
+    <!-- header -->
+    <!-- sebastian ,remember to add the right padding here -->
+    <header class="row">
+        <!-- sebastian, remember wrap messages on their own container  -->
+        <%= render 'layouts/messages' %>
+
+        <section class="small-12 columns text-center">
+            <h1>Get paid to connect friends with opportunities</h1>
+            <!-- graphic here> -->
+            <div>
+                <img src="assets/homepage_transaction.png">
+            </div>
+            <button class="button radius clearfix">Register with LikendIn</button>
+
+        </section>
+
+    </header class="row">
+
+
+<hr>
+    <h1>old site below</h1>
+<hr>
+
+    <!--div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -14,10 +70,10 @@
             <li><a href="/signin">Sign In</a></li>
             <li><a href="/signout">Sign Out</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
-        <%= render 'layouts/messages' %>
+        </div><
+        
       </div>
-    </div>
+    </div -->
 
     <div id="headerwrap">
         <div class="container">

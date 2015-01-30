@@ -15,9 +15,7 @@
 //= require angular
 //= require angular-route
 //= require angular-rails-templates
-//= require bootstrap/dist/js/bootstrap
+//= require foundation/js/vendor/modernizr.js
 //= require foundation/js/foundation.min.js
 //= require_tree ../templates
 //= require_tree .
-
-
