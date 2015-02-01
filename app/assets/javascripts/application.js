@@ -16,6 +16,7 @@
 //= require angular-route
 //= require angular-rails-templates
 //= require foundation/js/vendor/modernizr.js
+//= require fastclick/lib/fastclick.js
 //= require foundation/js/foundation.min.js
 //= require_tree ../templates
 //= require_tree .

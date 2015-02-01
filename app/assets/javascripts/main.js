@@ -4,10 +4,11 @@ jQuery(document).ready(function($) {
     //initialize foundation alerts
     //Reflow will make Foundation check the DOM for any elements and re-apply any listeners to them.
     $(document).foundation('alert', 'reflow');
+    $(document).foundation('reveal', 'reflow');
     
 
     /* commenting out scrollspy as we're using foundation's top nav instead  
-        leaving here for now in case we need to re do nav. - sebastian
+        leaving here for now in case we need to re do nav or add fancy on-scroll parallax effects- sebastian
      */
     
     /* ======= Scrollspy ======= */
