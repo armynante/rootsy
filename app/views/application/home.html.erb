@@ -1,41 +1,11 @@
 
-    <!-- Fixed navbar -->
-    <div class="fixed">
-        <nav class="top-bar" data-topbar role="navigation" >
-          <ul class="title-area">
-            <li class="name">
-              <h1><a href="#">Rootsy</a></h1>
-            </li>
-             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-          </ul>
-
-          <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="/signin">Sign In</a></li>
-                <li><a href="/signout">Sign Out</a></li>          
-            </ul>
-
-            <!-- Left Nav Section -->
-            <!--ul class="left">
-              
-            </ul -->
-          </section>
-          
-        </nav>
-    </div>
-
-    <!-- messages -->
+   <%= render 'layouts/nav' %>
 
     
     <!-- header -->
-    <!-- sebastian ,remember to add the right padding here -->
     <header>
-        <!-- sebastian, remember wrap messages on their own container  -->
+            <!-- messages -->
+
         <%= render 'layouts/messages' %>
 
         <section  class="row">
@@ -51,7 +21,7 @@
 
     </header>
 
-    <article class="content">
+    <article class="content cube_bg">
         <div class="row">
             <div class="medium-12 columns">
                 <section class="small-4 columns">
@@ -78,89 +48,11 @@
             </div>
         </div>
     </article>
-    <footer class ="row">
-        <div class="row">
-            <div class="medium-12 columns">
-                <section class ="small-4 columns">
-                    <a href="#">How it works</a>
-                </section>
-                <section class ="small-4 columns">
-                    <a href="#">Contact</a>
-                </section>
-                <section class ="small-4 columns">
-                    <a href="#">Terms and Privacy</a>
-                </section>
-            </div>
-        </div>
-    </footer>
+
+    <%= render 'layouts/footer' %>
+    <%= render 'layouts/registration_modal' %>
 
 
-<!-- Sebastian, remember to mo move this to it's own view so it loads after the body tag -->
-    <div id="registration-modal" class="reveal-modal small" data-reveal>
-      <h2>Register</h2>
-      <p class="lead">Lead Paragraph</p>
-      <p>secondary messaging paragraph</p>
-
-      <form>
-
-            <div class="centered">
-
-
-
-            <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: {class: 'form-horizontal'}) do |f| %>
-            <%= devise_error_messages! %>
-
-                <div class="row">
-                    <div class="small-3 columns">
-                      <%= f.label :email, class: "right inline" %>
-                    </div>
-                    <div class="small-9 columns">
-                      <%= f.email_field :email, class: "", placeholder:"example@example.com" %>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="small-3 columns">
-                        <%= f.label :password, class: "right inline" %>
-                    </div>
-                    <div class="small-9 columns">
-                        <%= f.password_field :password, autocomplete: "off", class: "", placeholder:"password" %>
-                    </div>
-                </div>
-            
-                <div class="row">
-                    <div class="small-3 columns">
-                        <%= f.label :password_confirmation, class: "right inline" %>
-                    </div>
-                    <div class="small-9 columns">
-                        <%= f.password_field :password_confirmation, autocomplete: "off", class: "", placeholder:"password" %>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="small-4 columns">
-                        <%= link_to "Add Linkedin", "auth/linkedin" %>
-                    </div>
-                    <div class="small-4 columns">
-                        <%= link_to "Add Facebook", "auth/facebook" %>
-                    </div>
-                    <div class="small-4 columns">
-                        <%= link_to "Add Google", "auth/google_oauth2" %>
-                    </div>
-                </div>
-                <div class="row">
-                    <%= f.submit "Sign up", class: "button radius clearfix" %>
-                </div>
-
-            <% end %>
-
-                    
-            </div>
-        </form>
-
-
-      <a class="close-reveal-modal">&#215;</a>
-    </div>
 
 
 

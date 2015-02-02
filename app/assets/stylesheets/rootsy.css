@@ -13,3 +13,7 @@ header {
 }
 
 header h1 { color: white; }
+
+.cube_bg {
+  background: transparent url(/assets/cube_bg_01.png);
+}

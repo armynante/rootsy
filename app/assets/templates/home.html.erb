@@ -1,64 +1,50 @@
 
-<!-- header -->
-<nav class="navbar navbar-fixed-top navbar-default" role="navigation" container="false">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsable">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="/home" class="navbar-brand">
-              Docket
-            </a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapsable">
-            <ul class="nav navbar-nav foo" id="menu">
-                <li>
-                    <a href="/docket">
-                    My Roots
-                  </a>
-                </li>
-                <li>
-                    <a href="/teachers">
-                    Teachers
-                  </a>
-                </li>
-                <li>
-                    <a href="/courses">
-                        Courses
-                    </a>
-                </li>
-                <li>
-                    <a href="/classrooms">
-                        Classes
-                    </a>
-                </li> 
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <p class="navbar-text">Logged in as Some Person</p>
-                <li>
-                    <a href="/signout">
-                        Log out
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- main -->
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<!-- Fixed navbar -->
+<div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation" >
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Rootsy</a></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="/signin">Sign In</a></li>
+            <li><a href="/signout">Sign Out</a></li>          
+        </ul>
+
+        <!-- Left Nav Section -->
+        <!--ul class="left">
+          
+        </ul -->
+      </section>
       
-        </div>
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-4">
-            <ul class="list-group">
+    </nav>
+</div>
+
+<!-- header -->
+ <header>
+
+
+        <section  class="row">
+            <div class="medium-12 columns text-center">
+               <ul class="list-group">
                 <li class="list-group-item">Item 1</li>
                 <li class="list-group-item">Item 2</li>
                 <li class="list-group-item">Item 3</li>
-            </ul>
-        </div>
-    </div>
-</div>
+             </ul>
+            </div>
+        </section>
+
+    </header>
+
+<!-- main -->
+<article class="content cube_bg">
+  </article>
