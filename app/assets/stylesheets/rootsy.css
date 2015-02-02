@@ -1,5 +1,5 @@
-body {
-
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Karla', sans-serif;
 }
 
 .row {
@@ -17,3 +17,78 @@ header h1 { color: white; }
 .cube_bg {
   background: transparent url(/assets/cube_bg_01.png);
 }
+
+
+.top-bar {
+	background: #FFF;
+}
+
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+  color: #111;
+}
+
+.top-bar .name h1 a {
+  font-size: 24pt;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.top-bar-section ul li {
+  background: #FFF;
+}
+
+.top-bar-section ul li > a {
+  color: #111;
+  font-family: 'Karla', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 14pt;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color: #111;
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0;
+  top: 50%;
+  margin-top: -8px;
+  right: 0.9375rem;
+  box-shadow: 0 0 0 1px #111, 0 7px 0 1px #111, 0 14px 0 1px #111;
+  width: 16px;
+}
+
+.contain-to-grid {
+	background: #FFF;
+}
+
+/*styles for large screens*/
+@media only screen and (min-width: 40.063em) {
+	.top-bar {
+	  background: #FFF;
+	  height: 6.8125rem;
+  	line-height: 6.8125rem;
+	}
+	.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
+	  line-height: 6.8125rem;
+	  font-size: 1.0625rem;
+	  margin: 0;
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: transparent;
+		line-height: 6.8125rem;
+	}
+
+	header {
+		  /*margin-top: 6.8125rem;*/
+	}
+
+}
+

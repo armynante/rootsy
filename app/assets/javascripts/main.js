@@ -5,6 +5,7 @@ jQuery(document).ready(function($) {
     //Reflow will make Foundation check the DOM for any elements and re-apply any listeners to them.
     $(document).foundation('alert', 'reflow');
     $(document).foundation('reveal', 'reflow');
+    $(document).foundation('topbar', 'reflow');
     
 
     /* commenting out scrollspy as we're using foundation's top nav instead  

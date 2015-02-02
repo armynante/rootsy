@@ -7,7 +7,7 @@
  * URL: http://blacktie.co
  */
 
-body {
+/*body {
   background-color: #f2f2f2;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -16,10 +16,10 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-}
+}*/
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #333;
@@ -39,9 +39,9 @@ h4 {
 	font-weight: 400;
 	font-size: 20px;
 }
-
+*/
 /* Paragraph & Typographic */
-p {
+/*p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
@@ -49,10 +49,10 @@ p {
 
 .centered {
     text-align: center;
-}
+}*/
 
 /* Links */
-a {
+/*a {
     color: #3498db;
     word-wrap: break-word;
 
@@ -99,11 +99,11 @@ a:after {
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
-}
+}*/
 
 /* Helpers */
 
-.mt {
+/*.mt {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
@@ -118,11 +118,11 @@ i {
 	margin: 8px;
 	color: #3498db; 
 }
-
+*/
 
 /* HeaderWrap */
-#headerwrap {
-	/* background: url(../img/bg01.jpg) no-repeat center top; */
+/*#headerwrap {
+	background: url(../img/bg01.jpg) no-repeat center top; 
 	background-color: #3498db;
 	margin-top: -30px;
 	padding-top:100px;
@@ -149,9 +149,9 @@ i {
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
-}
+}*/
 /*flash*/
-.alert-error {
+/*.alert-error {
     background-color: #f2dede;
     border-color: #eed3d7;
     color: #b94a48;
@@ -177,4 +177,4 @@ i {
     border-color: #d6e9c6;
     color: #468847;
     text-align: left;
- }
+ }*/
