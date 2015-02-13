@@ -6,6 +6,7 @@ jQuery(document).ready(function($) {
     $(document).foundation('alert', 'reflow');
     $(document).foundation('reveal', 'reflow');
     $(document).foundation('topbar', 'reflow');
+    $(document).foundation('equalizer', 'reflow');
     
 
     /* commenting out scrollspy as we're using foundation's top nav instead  
@@ -13,18 +14,20 @@ jQuery(document).ready(function($) {
      */
     
     /* ======= Scrollspy ======= */
-    //$('body').scrollspy({ target: '#header', offset: 400});
+    //$('body').scrollspy({ target: '#header', offset: 400})
     
     /* ======= Fixed header when scrolled ======= */
     
-    // $(window).bind('scroll', function() {
-    //      if ($(window).scrollTop() > 50) {
-    //          $('#header').addClass('navbar-fixed-top');
-    //      }
-    //      else {
-    //          $('#header').removeClass('navbar-fixed-top');
-    //      }
-    // });
+    $(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 300) {
+             $('#animated_bg').addClass('animate');
+         }
+         else {
+             $('#animated_bg').removeClass('animate');
+         }
+
+         console.log('scroll: ' + $(window).scrollTop());
+    });
    
     /* ======= ScrollTo ======= */
     // $('a.scrollto').on('click', function(e){

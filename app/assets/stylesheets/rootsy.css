@@ -1,23 +1,42 @@
+/* 
+
+all these styles override foundation.css base styles
+
+*/
+
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Karla', sans-serif;
+  /* font is a google font included in the header   */
 }
 
 .row {
-	/*max-width: 100%;*/
+
+}
+
+.row.padded {
+   padding: 4rem;
 }
 
 header {
-	padding-top: 50px;
 	background-color: #83DE8F;
-	padding: 150px 100px ;
+
+
 }
 
-header h1 { color: white; }
+header h1 { 
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+   }
 
-.cube_bg {
-  background: transparent url(/assets/cube_bg_01.png);
+#hero_slot {
+  padding: 150px 100px;
 }
 
+/* BEGIN Navigation
+   reference: http://foundation.zurb.com/docs/components/topbar.html;
+   overrides for large screens are on this stylesheet on the large screen section
+
+ */
 
 .top-bar {
 	background: #FFF;
@@ -66,29 +85,154 @@ header h1 { color: white; }
 
 .contain-to-grid {
 	background: #FFF;
+
+}
+.contain-to-grid::after {
+  content: "";
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.25);
+  height: 10px;
+}
+  
+/* END Navigation */
+
+
+footer {
+  background: #438BBE;
+  padding: 8rem 0;
 }
 
-/*styles for large screens*/
+
+footer a {
+  color: #fff;
+  display: inline-block;
+  height: 20px;
+  max-height: 20px;
+  overflow: visible;
+  position: relative;
+  top: 20px;
+}
+
+footer a:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 120%;
+  height: 2px;
+  background-color: white;
+  top: -20px;
+  left: -10%;
+}
+
+footer a:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: white;
+  top: -47px;
+  left: -20px;
+}
+
+
+
+/* BEGIN backgrounds */
+
+
+.cube_bg {
+  background: transparent url(/assets/cube_bg_01.png);
+}
+
+.fixed_bg {
+  background-attachment: fixed;
+}
+
+.worker_bee_bg {
+  background: transparent url(/assets/worker_bee.jpg) fixed;
+  background-size: cover;
+}
+
+.green_bg {
+  background-color: #83DE8F;
+}
+.semi-transparent_green_bg {
+  background-color: rgba(131, 222, 143, .8);
+  transition: background .5s linear;
+}
+
+.animate.semi-transparent_green_bg {
+  background-color: rgba(131, 222, 143, 1);
+}
+
+.semi-transparent_dark_green_bg {
+  background-color: rgba(0, 182, 81, .8);
+  transition: background .5s linear;  
+}
+
+.animate.semi-transparent_dark_green_bg {
+  background-color: rgba(0, 182, 81, 1);  
+}
+
+/* END backgrounds */
+
+/* BEGIN styles for large screens */
 @media only screen and (min-width: 40.063em) {
 	.top-bar {
 	  background: #FFF;
 	  height: 6.8125rem;
   	line-height: 6.8125rem;
+    transition: height .25s, line-height .25s !important;
 	}
 	.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
 	  line-height: 6.8125rem;
 	  font-size: 1.0625rem;
 	  margin: 0;
+    transition: line-height .25s !important;
 	}
 
 	.top-bar-section li:not(.has-form) a:not(.button) {
 		background: transparent;
 		line-height: 6.8125rem;
+    transition: line-height .25s !important;
 	}
 
+  .fixed .top-bar{
+    height: 2.8125rem;
+    line-height: 2.8125rem;
+  }
+
+  .fixed .top-bar-section li:not(.has-form) a:not(.button),
+  .fixed .name h1,
+  .fixed .top-bar .name h2, 
+  .fixed .top-bar .name h3, 
+  .fixed .top-bar .name h4, 
+  .fixed .top-bar .name p, 
+  .fixed .top-bar .name span {
+    line-height: 2.8125rem;
+  }
+  
 	header {
 		  /*margin-top: 6.8125rem;*/
 	}
+  #howitworks .panel {
+    padding-bottom: 4rem;
+    width: 31.33%;
+    margin: 1%;
+    background: white;
+  }
+
+  #howitworks .cta-button {
+    position: absolute;
+    bottom: 1rem;
+  }
+
+
 
 }
+/* END styles for large screens */
 

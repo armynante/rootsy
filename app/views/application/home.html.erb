@@ -3,12 +3,13 @@
 
     
     <!-- header -->
-    <header>
+    <header id="header" class="worker_bee_bg">
             <!-- messages -->
 
         <%= render 'layouts/messages' %>
-
-        <section  class="row">
+      <div id="animated_bg" class="semi-transparent_green_bg">
+        <section id="hero_slot" class="row">
+            
             <div class="medium-12 columns text-center">
                 <h1>Get paid to connect friends with opportunities</h1>
                 <!-- graphic here> -->
@@ -17,36 +18,70 @@
                 </div>
                 <button class="button radius clearfix" data-reveal-id="registration-modal">Register with LikendIn</button>
             </div>
-        </section>
 
+        </section>
+        </div>
     </header>
 
-    <article class="content cube_bg">
-        <div class="row">
-            <div class="medium-12 columns">
-                <section class="small-4 columns">
+    <article class="content cube_bg fixed_bg">
+        
+        <section id="howitworks" class="row padded">
+            <div class="medium-12 columns" data-equalizer>
+                <section class="medium-4 columns panel radius" data-equalizer-watch>
                     <h2>Find</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet elit ultricies, placerat augue nec, interdum velit. Nunc dapibus sodales augue a tincidunt. Integer ultrices nibh vel scelerisque lobortis. Duis malesuada neque nec tortor vehicula, vitae malesuada lectus tincidunt. 
+                        Rootsy helps you quickly and intelligently search and filter your network to find great candidates - we serve you up a list with the most relevant and then you get to make the final call on whether they might be a good candidates or advocate for the job. 
                     </p>
-                    <button class="button radius clearfix">SEE ALL JOBS</button>
+                    <button class="button radius clearfix cta-button">SEE ALL JOBS</button>
                 </section>
-                <section class="small-4 columns">
+                <section class="medium-4 columns panel radius" data-equalizer-watch>
                     <h2>Share</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet elit ultricies, placerat augue nec, interdum velit. Nunc dapibus sodales augue a tincidunt. Integer ultrices nibh vel scelerisque lobortis. Duis malesuada neque nec tortor vehicula, vitae malesuada lectus tincidunt. 
+                       Rootsy helps you reach out to your network and share the job info with just a few clicks. You can then track who has the job info, and who has passed along the job info, and reach out to any of them to keep the conversation going.
                     </p>
-                    <button class="button radius clearfix">REACH OUT</button>
+                    <button class="button radius clearfix cta-button">REACH OUT</button>
                 </section>
-                <section class="small-4 columns">
+                <section class="medium-4 columns panel radius" data-equalizer-watch>
                     <h2>Mobilize</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet elit ultricies, placerat augue nec, interdum velit. Nunc dapibus sodales augue a tincidunt. Integer ultrices nibh vel scelerisque lobortis. Duis malesuada neque nec tortor vehicula, vitae malesuada lectus tincidunt. 
+                        Rootsy helps you mobilize your network to join your recruiting efforts by sharing your company's referral bonus with everyone who helped find the hire.  
                     </p>
-                    <button class="button radius clearfix">GET PAID</button>
+                    <button class="button radius clearfix cta-button">GET PAID</button>
                 </section>
             </div>
-        </div>
+        </section>
+    </article>
+    <article>
+        <section id="contact" class="row padded">
+            <section class="small-12 columns">
+                <h2>Contact</h2>
+                <p>
+                We are more than happy to help in any way and answer any questions you have about Rootsy! Feel free to send us an e-mail at <a href="mailto:support@rootsy.io">support@rootsy.io</a> and we’ll get back ASAP.
+                <p>
+            </section>
+        </section>
+    </article>
+
+    <!-- sample section showing background -->
+    <article class="worker_bee_bg">
+        <section id="sample section" class="row padded">
+            <section class="small-12 columns">
+                <br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br>
+            </section>
+        </section>
+    </article>
+
+    
+    <article class="cube_bg">
+        <section class="row padded">
+            <section class="small-12 columns">
+                <h2>FAQ</h2>
+                <p>
+                ...
+                <p>
+            </section>
+        </section>
     </article>
 
     <%= render 'layouts/footer' %>
